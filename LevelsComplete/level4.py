@@ -4,19 +4,17 @@ robotArm = RobotArm('exercise 4')
 
 # Jouw python instructies zet je vanaf hier:
 robotArm.grab()
-robotArm.moveRight()
-robotArm.moveRight()
-robotArm.moveRight()
+for a in range(3):
+    robotArm.moveRight()
 robotArm.drop()
-robotArm.moveLeft()
-robotArm.moveLeft()
-robotArm.moveLeft()
+for b in range(3):
+    robotArm.moveLeft()
 robotArm.grab()
-robotArm.moveRight()
-robotArm.moveRight()
+for c in range(2):
+    robotArm.moveRight()
 robotArm.drop()
-robotArm.moveLeft()
-robotArm.moveLeft()
+for d in range(2):
+    robotArm.moveLeft()
 robotArm.grab()
 robotArm.moveRight()
 robotArm.drop()
@@ -24,11 +22,11 @@ robotArm.moveRight()
 robotArm.grab()
 robotArm.moveLeft()
 robotArm.drop()
-robotArm.moveRight()
-robotArm.moveRight()
+for e in range(2):
+    robotArm.moveRight()
 robotArm.grab()
-robotArm.moveLeft()
-robotArm.moveLeft()
+for f in range(2):
+    robotArm.moveLeft()
 robotArm.drop()
 
 
